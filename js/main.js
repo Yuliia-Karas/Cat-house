@@ -3,6 +3,12 @@ const slider = document.querySelector(".hero-list");
 const next = document.querySelector(".next");
 const prev = document.querySelector(".prev");
 
+// const greeting = document.querySelector(".greeting");
+// greeting.classList.toggle("is-hidden");
+
+// const logotype = document.querySelector(".site-logo");
+// logotype.classList.toggle("is-hidden");
+
 const mySiema = new Siema({
   selector: slider,
   loop: true,
